@@ -1,26 +1,28 @@
 // Global module for http
 const http = require('http');
 
-const routes = require('./routes');
-// // Filesystem module
-// const fs = require('fs');
+const express = require('express')
+
+// Import as a function
+const app = express();
 
 
+// Add a new middleware function
+// Accepts an array of request handlers
 
-// req - data about request
-// res - help you send a response
-function rqListener(req, res) {
+app.use((req, res, next) => {
+    console.log('in the middleware');
+    // Allows request to travel to next middleware
+    next();
+})
 
-}
+app.use((req, res, next) => {
+    console.log('in another middleware');
+    res.send('<h1>Hello</h1>')
+})
 
-// createServer callback function
-// Takes request listener as argument
-
-// http.createServer(rqListener);
-
-// OR
-
-const server = http.createServer(routes.handler);
+// App is a valid request handler
+const server = http.createServer(app);
 
 // Creates the server on the given port
 server.listen(3000);

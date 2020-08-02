@@ -49,7 +49,7 @@
       <updated>1596393210590</updated>
       <workItem from="1596393211673" duration="6634000" />
       <workItem from="1596401588591" duration="294000" />
-      <workItem from="1596401893385" duration="107000" />
+      <workItem from="1596401893385" duration="1207000" />
     </task>
     <servers />
   </component>
@@ -67,5 +67,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="880" y="324" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596402284343">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="880" y="324" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596402284343" />
   </component>
 </project>
