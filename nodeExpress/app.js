@@ -1,8 +1,13 @@
 const express = require('express')
+
 const bodyParser = require('body-parser')
+
 // Import as a function
 const app = express();
 
+// Import router objects
+const adminRoutes = require('./routes/admin')
+const shopRoutes = require('./routes/shop')
 
 // Add a new middleware function
 // Accepts an array of request handlers
@@ -15,20 +20,14 @@ const app = express();
 
 app.use(bodyParser.urlencoded({extended: false}));
 
-app.use('/add-product', (req, res, next) => {
-    //console.log('in another middleware');
-    res.send('<form action="/product" method="POST"><input type="text" name="title"><button type="submit">Add Product</button></form>')
+// Router is a valid middleware function
+app.use(shopRoutes);
+
+app.use((req, res, next) => {
+    // Can chain methods as long as send is last
+    res.status(404).send('<h1>404 Page not found</h1>');
 })
 
-app.use('/product', (req, res, next) => {
-    console.log(req.body)
-    res.redirect('/');
-})
-
-app.use('/', (req, res, next) => {
-    //console.log('in another middleware');
-    res.send('<h1>Hello</h1>')
-})
 
 // Creates the server on the given port
 
