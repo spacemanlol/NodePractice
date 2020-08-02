@@ -19,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -33,6 +34,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
@@ -49,7 +51,7 @@
       <updated>1596393210590</updated>
       <workItem from="1596393211673" duration="6634000" />
       <workItem from="1596401588591" duration="294000" />
-      <workItem from="1596401893385" duration="3503000" />
+      <workItem from="1596401893385" duration="5259000" />
     </task>
     <servers />
   </component>

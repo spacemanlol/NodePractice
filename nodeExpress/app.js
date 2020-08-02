@@ -2,6 +2,8 @@ const express = require('express')
 
 const bodyParser = require('body-parser')
 
+const path = require('path');
+
 // Import as a function
 const app = express();
 
@@ -21,11 +23,13 @@ const shopRoutes = require('./routes/shop')
 app.use(bodyParser.urlencoded({extended: false}));
 
 // Router is a valid middleware function
+app.use('/admin', adminRoutes);
 app.use(shopRoutes);
 
 app.use((req, res, next) => {
+    res.status(404).sendFile(path.join(__dirname, 'views', '404.html'))
     // Can chain methods as long as send is last
-    res.status(404).send('<h1>404 Page not found</h1>');
+    // res.status(404).send('<h1>404 Page not found</h1>');
 })
 
 
