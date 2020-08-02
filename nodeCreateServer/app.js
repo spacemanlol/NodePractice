@@ -37,7 +37,32 @@ const server = http.createServer((req, res) => {
     }
 
     if(url === '/message' && method === 'POST') {
-        fs.writeFileSync('message.txt', 'DUMMY');
+        // .on -> go into data stream
+        // 'data' - fires on new chunk
+
+        const body = [];
+
+        req.on('data', (chunk) => {
+            console.log(chunk)
+            body.push(chunk);
+        });
+
+        // All chunks have been read and are stored in the body
+        req.on('end', () => {
+            // in order to interact with the chunks, we need
+            // to buffer them
+
+            // Creates a new buffer and adds all the chunks from inside the body
+            // to it ("waiting at bus stop")
+            const parsedBody = Buffer.concat(body).toString();
+            const message = parsedBody.split('=')[1];
+            fs.writeFileSync('message.txt', message);
+
+            console.log(parsedBody)
+
+        })
+
+
         // 302 - redirection
         res.statusCode = 302;
         res.setHeader('Location', '/');
