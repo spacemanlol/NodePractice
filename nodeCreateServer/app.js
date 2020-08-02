@@ -1,6 +1,11 @@
 // Global module for http
 const http = require('http');
 
+// Filesystem module
+const fs = require('fs');
+
+
+
 // req - data about request
 // res - help you send a response
 function rqListener(req, res) {
@@ -19,6 +24,8 @@ const server = http.createServer((req, res) => {
     // console.log(req.url, req.method, req.headers)
 
     const url = req.url;
+    const method = req.method;
+
     if(url === '/') {
         // Write data to the response
         res.write('<html>');
@@ -27,6 +34,14 @@ const server = http.createServer((req, res) => {
 
         // ends response, cannot write anymore
         return res.end()
+    }
+
+    if(url === '/message' && method === 'POST') {
+        fs.writeFileSync('message.txt', 'DUMMY');
+        // 302 - redirection
+        res.statusCode = 302;
+        res.setHeader('Location', '/');
+        return res.end();
     }
 
     res.setHeader('Content-Type', 'text/html');
