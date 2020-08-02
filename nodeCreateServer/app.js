@@ -48,7 +48,7 @@ const server = http.createServer((req, res) => {
         });
 
         // All chunks have been read and are stored in the body
-        req.on('end', () => {
+        return req.on('end', () => {
             // in order to interact with the chunks, we need
             // to buffer them
 
@@ -56,24 +56,26 @@ const server = http.createServer((req, res) => {
             // to it ("waiting at bus stop")
             const parsedBody = Buffer.concat(body).toString();
             const message = parsedBody.split('=')[1];
-            fs.writeFileSync('message.txt', message);
+            // Another event listener that executes when we're done writing to a file
+            fs.writeFile('message.txt', message, (err) => {
+                // Offloads process to operating system
+                // 302 - redirection
+                res.statusCode = 302;
+                res.setHeader('Location', '/');
+                return res.end();
+            });
+            // console.log(parsedBody)
 
-            console.log(parsedBody)
-
-        })
+        });
 
 
-        // 302 - redirection
-        res.statusCode = 302;
-        res.setHeader('Location', '/');
-        return res.end();
     }
 
     res.setHeader('Content-Type', 'text/html');
     res.write('<html>');
     res.write('<body><h1>YEET</h1></body>');
     res.write('</html>');
-
+    res.end();
 
 });
 
