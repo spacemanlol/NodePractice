@@ -33,6 +33,8 @@ const requestHandler = (req, res) => {
             // Creates a new buffer and adds all the chunks from inside the body
             // to it ("waiting at bus stop")
             const parsedBody = Buffer.concat(body).toString();
+            console.log(parsedBody)
+
             const message = parsedBody.split('=')[1];
             // Another event listener that executes when we're done writing to a file
             fs.writeFile('message.txt', message, (err) => {
