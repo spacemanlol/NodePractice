@@ -46,6 +46,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\arato\Documents\practice\NodePractice\nodeMVC\views\shop" />
+      <recent name="C:\Users\arato\Documents\practice\NodePractice\nodeMVC\views\admin" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596480558759</updated>
-      <workItem from="1596480559858" duration="4158000" />
+      <workItem from="1596480559858" duration="7862000" />
     </task>
     <servers />
   </component>
