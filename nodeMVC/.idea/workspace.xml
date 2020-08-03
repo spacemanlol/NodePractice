@@ -6,11 +6,20 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f434f04a-afc4-4818-b07d-1b8944717e19" name="Default Changelist" comment="" />
+    <list default="true" id="628a5293-7557-41a4-8e11-a23d5ca92fc8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,43 +28,33 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1fYRnzL8tV09ogi18CigGcLDEgQ" />
+  <component name="ProjectId" id="1fbIqosGHFMKbBhxkfDvtijSNem" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.12.53" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f434f04a-afc4-4818-b07d-1b8944717e19" name="Default Changelist" comment="" />
-      <created>1596393210590</created>
+      <changelist id="628a5293-7557-41a4-8e11-a23d5ca92fc8" name="Default Changelist" comment="" />
+      <created>1596480558759</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1596393210590</updated>
-      <workItem from="1596393211673" duration="6634000" />
-      <workItem from="1596401588591" duration="294000" />
-      <workItem from="1596401893385" duration="6459000" />
-      <workItem from="1596412888782" duration="4043000" />
-      <workItem from="1596480004620" duration="681000" />
+      <updated>1596480558759</updated>
+      <workItem from="1596480559858" duration="1912000" />
     </task>
     <servers />
   </component>
@@ -72,12 +71,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="880" y="324" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596402284343">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="880" y="324" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596402284343" />
   </component>
 </project>
