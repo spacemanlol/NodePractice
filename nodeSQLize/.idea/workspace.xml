@@ -19,23 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b835bf3-1914-47a0-b82c-c8d67951ea18" name="Default Changelist" comment="" />
+    <list default="true" id="964ac815-16da-4d59-950d-3789deccc3f4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1feJK6tMOdC0yTmBqY6caB7e5J6" />
+  <component name="ProjectId" id="1feZdFpyiGAKlve61hRfTlR7N3s" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,13 +42,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8b835bf3-1914-47a0-b82c-c8d67951ea18" name="Default Changelist" comment="" />
-      <created>1596572559456</created>
+      <changelist id="964ac815-16da-4d59-950d-3789deccc3f4" name="Default Changelist" comment="" />
+      <created>1596580603711</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1596572559456</updated>
-      <workItem from="1596572561140" duration="2968000" />
-      <workItem from="1596590004256" duration="2116000" />
+      <updated>1596580603711</updated>
+      <workItem from="1596580604840" duration="7953000" />
     </task>
     <servers />
   </component>
@@ -72,12 +64,23 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="774" y="365" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596573177923">
+    <state width="1333" height="205" key="GridCell.Tab.0.bottom" timestamp="1596581050407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="774" y="365" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596573177923" />
+    <state width="1333" height="205" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596581050407" />
+    <state width="1333" height="205" key="GridCell.Tab.0.center" timestamp="1596581050406">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1333" height="205" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596581050406" />
+    <state width="1333" height="205" key="GridCell.Tab.0.left" timestamp="1596581050406">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1333" height="205" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596581050406" />
+    <state width="1333" height="205" key="GridCell.Tab.0.right" timestamp="1596581050407">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1333" height="205" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596581050407" />
   </component>
 </project>
