@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c1be0a9-152f-400a-b69b-0e4d0dcb479f" name="Default Changelist" comment="" />
+    <list default="true" id="9167ad04-a50d-4c21-97db-4cc2080dad59" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1fjz5zbIaxj1yyFLzBQQZfeJh0m" />
+  <component name="ProjectId" id="1fkNjtvgFh2EP6RrqwVMjLk3uf8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,12 +42,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6c1be0a9-152f-400a-b69b-0e4d0dcb479f" name="Default Changelist" comment="" />
-      <created>1596746111048</created>
+      <changelist id="9167ad04-a50d-4c21-97db-4cc2080dad59" name="Default Changelist" comment="" />
+      <created>1596758268962</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1596746111048</updated>
-      <workItem from="1596746112188" duration="6703000" />
+      <updated>1596758268962</updated>
+      <workItem from="1596758270097" duration="701000" />
     </task>
     <servers />
   </component>
@@ -66,9 +66,21 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="779" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1596752614271">
+    <state width="1333" height="205" key="GridCell.Tab.0.bottom" timestamp="1596758314877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="779" y="325" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596752614271" />
+    <state width="1333" height="205" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596758314877" />
+    <state width="1333" height="205" key="GridCell.Tab.0.center" timestamp="1596758314877">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1333" height="205" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596758314877" />
+    <state width="1333" height="205" key="GridCell.Tab.0.left" timestamp="1596758314877">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1333" height="205" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596758314877" />
+    <state width="1333" height="205" key="GridCell.Tab.0.right" timestamp="1596758314877">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1333" height="205" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596758314877" />
   </component>
 </project>

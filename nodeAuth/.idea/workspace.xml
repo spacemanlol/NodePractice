@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c1be0a9-152f-400a-b69b-0e4d0dcb479f" name="Default Changelist" comment="" />
+    <list default="true" id="729e3cc1-4972-48ec-8463-e9422237842d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1fjz5zbIaxj1yyFLzBQQZfeJh0m" />
+  <component name="ProjectId" id="1fkCuxMScFT4e7vfa86Id1hDmEb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,12 +42,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6c1be0a9-152f-400a-b69b-0e4d0dcb479f" name="Default Changelist" comment="" />
-      <created>1596746111048</created>
+      <changelist id="729e3cc1-4972-48ec-8463-e9422237842d" name="Default Changelist" comment="" />
+      <created>1596752930026</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1596746111048</updated>
-      <workItem from="1596746112188" duration="6703000" />
+      <updated>1596752930026</updated>
+      <workItem from="1596752931118" duration="2287000" />
     </task>
     <servers />
   </component>
@@ -64,11 +64,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="779" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1596752614271">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="779" y="325" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596752614271" />
   </component>
 </project>
