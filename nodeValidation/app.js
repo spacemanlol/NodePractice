@@ -1,6 +1,5 @@
-require('dotenv').config()
-
 const path = require('path');
+require('dotenv').config();
 
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -13,13 +12,14 @@ const flash = require('connect-flash');
 const errorController = require('./controllers/error');
 const User = require('./models/user');
 
+const MONGODB_URI =
+    process.env.MONGO_URI;
 
 const app = express();
 const store = new MongoDBStore({
-  uri: process.env.MONGO_URI,
+  uri: MONGODB_URI,
   collection: 'sessions'
 });
-
 const csrfProtection = csrf();
 
 app.set('view engine', 'ejs');
@@ -48,10 +48,15 @@ app.use((req, res, next) => {
   }
   User.findById(req.session.user._id)
     .then(user => {
+        if(!user){
+            return next();
+        }
       req.user = user;
       next();
     })
-    .catch(err => console.log(err));
+    .catch(err => {
+        throw new Error(err);
+    });
 });
 
 app.use((req, res, next) => {
@@ -67,7 +72,7 @@ app.use(authRoutes);
 app.use(errorController.get404);
 
 mongoose
-  .connect(process.env.MONGO_URI)
+  .connect(MONGODB_URI)
   .then(result => {
     app.listen(3000);
   })
